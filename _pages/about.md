@@ -11,11 +11,12 @@ redirect_from:
 
 I am a Ph.D. candidate in the [Department of Electrical and Computer Engineering](https://engineering.virginia.edu/department/electrical-and-computer-engineering) at [the University of Virginia](https://www.virginia.edu/), where I am fortunately advised by [Prof. Jundong Li](https://jundongli.github.io). Prior to that, I obtained my B.S. in mathematics and applied mathematics from the [University of Chinese Academy of Sciences](https://www.ucas.ac.cn/).
 
-<span style="color:red">**\[Seeking for Interns\]:**</span> I am actively seeking for **collaborations** and **research scientist internship** roles. Please feel free to [email me](mailto:nee7ne@virginia.edu), I appreciate it so much!
+<span style="color:red">**\[Seeking for Interns\]:**</span> I am actively seeking for **research scientist internship** roles. Please feel free to [email me](mailto:nee7ne@virginia.edu), I appreciate it so much!
+<span style="color:red">**\[Open for Collaborations\]:**</span> I am happy to collaborate! Please feel free to [email me](mailto:nee7ne@virginia.edu).
 
 **Research Summary:** My current research interest mainly lies in advancing interpretability of large language models. I have published four conference papers (two first author ones) and released four preprints in the following areas [[see full list]](https://scholar.google.com/citations?user=SMHk6PMAAAAJ&hl=en):
 
-* **Explainability:** Mechanistic Interpretability; Counterfactual explanation;
+* **Explainability:** Mechanistic Interpretability; Counterfactual Explanation;
 * **Graph Machine Learning:** Efficient GNN; Safety in Graph Learning; 
 * **Network Science**: Network Epidemiology; 
 * **Causal Inference**: Causal Inference with Latent Variables;
@@ -42,6 +43,7 @@ News
 <!-- * Mar. 2023: One paper accepted by ICHI. -->
 <!-- * Dec. 2022: One paper accepted by SDM. -->
 <!-- * Nov. 2022: One paper accepted by AAAI. -->
+
 ...
 
 
