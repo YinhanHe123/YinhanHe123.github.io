@@ -3,34 +3,51 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<!-- ## Preprints -->
+<!-- 1. Fairness in Graph Mining: A Survey [\[PDF\]](http://yushundong.github.io/files/fairness_survey.pdf) [\[Code\]](https://github.com/yushundong/Graph-Mining-Fairness-Data) [\[Slides\]](https://yushundong.github.io//publications/)<br> -->
+<!-- **Yushun Dong**, Jing Ma, Chen Chen, Jundong Li <br> -->
+<!-- arXiv preprint arXiv:2204.09888 (**arXiv**).  -->
 
 
+
+
+## Tutorials:
+1. **Causal Inference with Latent Variables: Recent Advances and Future Perspectives**  
+   **Yaochen Zhu**, Yinhan He, Jing Ma, Mengxuan Hu, Sheng Li, Jundong Li  
+   KDD 2024 (Accepted to Survey Track) | [paper](https://arxiv.org/pdf/2406.13966)
+
+## Preprint
+
+1. Global Graph Counterfactual Explanation: A Subgraph Mapping Approach [\[PDF\]](https://arxiv.org/abs/2410.19978) [\[Code\]](https://yinhanhe123.github.io//publications/) [\[Slides\]](https://yinhanhe123.github.io//publications/)<br>
+**Yinhan He**, Wendy Zheng, Yaochen Zhu, Jing Ma, Saumitra Mishra, Natraj Raman, Ninghao Liu, Jundong Li
+
+2. Graph Neural Networks Are More Than Filters: Revisiting and Benchmarking from A Spectral Perspective [\[PDF\]](https://arxiv.org/abs/2412.07188) [\[Code\]](https://yinhanhe123.github.io//publications/) [\[Slides\]](https://yinhanhe123.github.io//publications/)<br>
+Yushun Dong, Patrick Soga, **Yinhan He**, Song Wang, Jundong Li
+
+3. Safety in Graph Machine Learning: Threats and Safeguards  [\[PDF\]](https://arxiv.org/abs/2405.11034) [\[Code\]](https://yinhanhe123.github.io//publications/) [\[Slides\]](https://yinhanhe123.github.io//publications/)<br>
+Song Wang, Yushun Dong, Binchi Zhang, Zihan Chen, Xingbo Fu, **Yinhan He**, Cong Shen, Chuxu Zhang, Nitesh V. Chawla, Jundong Li
+
+## Conference Publications
+
+### 2025
+
+1. Demystify Epidemic Containment in Directed Networks: Theory and Algorithms [\[PDF\]](https://yinhanhe123.github.io//publications/) [\[Code\]](https://yinhanhe123.github.io//publications/) [\[Slides\]](https://yinhanhe123.github.io//publications/)<br>
+Xingbo Fu, Zihan Chen, **Yinhan He**, Song Wang, Binchi Zhang, Chen Chen, Jundong Li <br> 
+ACM International Conference on Web Search and Data Mining (**WSDM 2025**).
+
+2. Virtual Nodes Can Help: Tackling Distribution Shifts in Federated Graph Learning [\[PDF\]](https://yinhanhe123.github.io//publications/) [\[Code\]](https://yinhanhe123.github.io//publications/) [\[Slides\]](https://yinhanhe123.github.io//publications/)<br>
+**Yinhan He**, Chen Chen, Song Wang, Guanghui Min, Jundong Li <br> 
+ACM International Conference on Web Search and Data Mining (**WSDM 2025**).
+
+### 2024
+
+1. Explaining Graph Neural Networks with Large Language Models: A Counterfactual Perspective on Molecule Graphs [\[PDF\]](https://aclanthology.org/2024.findings-emnlp.415.pdf) [\[Code\]](https://yinhanhe123.github.io//publications/) [\[Slides\]](https://yinhanhe123.github.io//publications/)<br>
+**Yinhan He**, Zaiyi Zheng, Patrick Soga, Yaochen Zhu, Yushun Dong, Jundong Li <br>
+Empirical Methods in Natural Language Processing (**EMNLP 2024**).
+
+2. Causal Inference with Latent Variables: Recent Advances and Future Perspectives 
+ACM SIGKDD Conference on Knowledge Discovery and Data Mining (**KDD 2024 Survey Track**)
 
