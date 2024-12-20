@@ -8,7 +8,7 @@ author_profile: true
 ## Tutorials
 
 1. Causal Inference with Latent Variables: Recent Advances and Future Perspectives [[PDF]](https://arxiv.org/pdf/2406.13966) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/) [[Website]](https://yinhanhe123.github.io//publications/)<br>
-**Yaochen Zhu**, Yinhan He, Jing Ma, Mengxuan Hu, Sheng Li, Jundong Li<br>
+Yaochen Zhu, **Yinhan He**, Jing Ma, Mengxuan Hu, Sheng Li, Jundong Li<br>
 ACM SIGKDD Conference on Knowledge Discovery and Data Mining (**KDD 2024**).
 
 ## Preprint
@@ -27,11 +27,11 @@ Song Wang, Yushun Dong, Binchi Zhang, Zihan Chen, Xingbo Fu, **Yinhan He**, Cong
 ### 2025
 
 1. Demystify Epidemic Containment in Directed Networks: Theory and Algorithms [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
-Xingbo Fu, Zihan Chen, **Yinhan He**, Song Wang, Binchi Zhang, Chen Chen, Jundong Li<br>
-ACM International Conference on Web Search and Data Mining (**WSDM 2025**).
+**Yinhan He**, Chen Chen, Song Wang, Guanghui Min, Jundong Li<br>
+Annual AAAI Conference on Artificial Intelligence (**AAAI 2025**).
 
 2. Virtual Nodes Can Help: Tackling Distribution Shifts in Federated Graph Learning [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
-**Yinhan He**, Chen Chen, Song Wang, Guanghui Min, Jundong Li<br>
+Xingbo Fu, Zihan Chen, **Yinhan He**, Song Wang, Binchi Zhang, Chen Chen, Jundong Li<br>
 ACM International Conference on Web Search and Data Mining (**WSDM 2025**).
 
 ### 2024
@@ -41,5 +41,5 @@ ACM International Conference on Web Search and Data Mining (**WSDM 2025**).
 Empirical Methods in Natural Language Processing (**EMNLP 2024**).
 
 2. Causal Inference with Latent Variables: Recent Advances and Future Perspectives<br>
-**Yaochen Zhu**, Yinhan He, Jing Ma, Mengxuan Hu, Sheng Li, Jundong Li<br>
+Yaochen Zhu, **Yinhan He**, Jing Ma, Mengxuan Hu, Sheng Li, Jundong Li<br>
 ACM SIGKDD Conference on Knowledge Discovery and Data Mining (**KDD 2024 Survey Track**)
