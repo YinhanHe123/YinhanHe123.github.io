@@ -1,31 +1,24 @@
 ---
 layout: compress
 ---
-
 {% include base_path %}
-
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
-
   <body>
-
     {% include browser-upgrade.html %}
     {% include masthead.html %}
-
     {{ content }}
-<p style="text-align: center"><a href='https://clustrmaps.com/site/1bdv7'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=300&t=n&d=MbEXsv9McIF0YMw3TNiR-1q4oK3do-B9_B4nQfysqZY&ct=ffffff&co=2d78ad'/></a></p>
     <div class="page__footer">
       <footer>
         {% include footer/custom.html %}
         {% include footer.html %}
       </footer>
     </div>
-
     {% include scripts.html %}
-
+    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=BdGZ6ExUokHSZE_tH3WEFVO44RwtEdm5_3wjQWki3Gs"></script>
   </body>
 </html>
