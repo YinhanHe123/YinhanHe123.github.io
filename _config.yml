@@ -36,7 +36,7 @@ author:
   impactstory      : # URL
   orcid            : "https://orcid.org/my-orcid?orcid=0009-0003-8163-395X"
   semantic         : # URL
-  pubmed           : "https://scholar.google.com/citations?user=SMHk6PMAAAAJ&hl=en"
+  # pubmed           : "https://scholar.google.com/citations?user=SMHk6PMAAAAJ&hl=en"
   researchgate     : # URL
   scopus           : # URL
 
