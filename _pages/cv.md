@@ -9,5 +9,5 @@ redirect_from:
 
 {% include base_path %}
 
-See my up-to-date CV [\[here\]](http://yinhanhe123.github.io/files/Yinhan_He_s_resume 1.pdf).
+See my up-to-date CV [\[here\]](http://yinhanhe123.github.io/files/Yinhan_He_s_resume.pdf).
 
