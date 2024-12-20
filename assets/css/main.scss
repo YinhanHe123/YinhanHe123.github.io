@@ -39,3 +39,11 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+.page__footer {
+    .footer-globe-widget {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1em;
+    }
+}
