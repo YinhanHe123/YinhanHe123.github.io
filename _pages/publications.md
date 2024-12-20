@@ -40,6 +40,6 @@ ACM International Conference on Web Search and Data Mining (**WSDM 2025**).
 **Yinhan He**, Zaiyi Zheng, Patrick Soga, Yaochen Zhu, Yushun Dong, Jundong Li<br>
 Empirical Methods in Natural Language Processing (**EMNLP 2024**).
 
-2. Causal Inference with Latent Variables: Recent Advances and Future Perspectives<br>
+2. Causal Inference with Latent Variables: Recent Advances and Future Perspectives [[PDF]](https://arxiv.org/pdf/2406.13966) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 Yaochen Zhu, **Yinhan He**, Jing Ma, Mengxuan Hu, Sheng Li, Jundong Li<br>
 ACM SIGKDD Conference on Knowledge Discovery and Data Mining (**KDD 2024 Survey Track**)
