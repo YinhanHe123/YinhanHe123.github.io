@@ -61,7 +61,7 @@ Services
 ------
 
 <!-- Industr* **Invited Program Committee Member**: NeurIPS, ICLR, ICML, ACL, AAAI, KDD, CIKM, SDM, etc.-->
-* **Invited Reviewer & External Reviewer**: SIGKDD, SIGIR, AAAI, ICML, WWW, ICLR, ICML, NeurIPS, TKDE, TKDD, CIKM, WSDM, ECML-PKDD, PAKDD, BigData, etc.
+* **Invited Reviewer & External Reviewer**: SIGKDD, SIGIR, AAAI, ICML, WWW, ICLR, ICML, NeurIPS, CIKM, WSDM etc.
 <!--* **Volunteer**: SIGKDD 2021, IJCAI 2021, SIGKDD 2020, etc.-->
 
 
