@@ -28,11 +28,11 @@ Song Wang, Yushun Dong, Binchi Zhang, Zihan Chen, Xingbo Fu, **Yinhan He**, Cong
 
 1. Demystify Epidemic Containment in Directed Networks: Theory and Algorithms [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 **Yinhan He**, Chen Chen, Song Wang, Guanghui Min, Jundong Li<br>
-Annual AAAI Conference on Artificial Intelligence (**AAAI 2025**).
+ACM International Conference on Web Search and Data Mining (**WSDM 2025**).
 
 2. Virtual Nodes Can Help: Tackling Distribution Shifts in Federated Graph Learning [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 Xingbo Fu, Zihan Chen, **Yinhan He**, Song Wang, Binchi Zhang, Chen Chen, Jundong Li<br>
-ACM International Conference on Web Search and Data Mining (**WSDM 2025**).
+Annual AAAI Conference on Artificial Intelligence (**AAAI 2025**).
 
 ### 2024
 
