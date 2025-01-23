@@ -16,10 +16,7 @@ ACM SIGKDD Conference on Knowledge Discovery and Data Mining (**KDD 2024**).
 1. Global Graph Counterfactual Explanation: A Subgraph Mapping Approach [[PDF]](https://arxiv.org/abs/2410.19978) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 **Yinhan He**, Wendy Zheng, Yaochen Zhu, Jing Ma, Saumitra Mishra, Natraj Raman, Ninghao Liu, Jundong Li
 
-2. Graph Neural Networks Are More Than Filters: Revisiting and Benchmarking from A Spectral Perspective [[PDF]](https://arxiv.org/abs/2412.07188) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
-Yushun Dong, Patrick Soga, **Yinhan He**, Song Wang, Jundong Li
-
-3. Safety in Graph Machine Learning: Threats and Safeguards [[PDF]](https://arxiv.org/abs/2405.11034) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
+2. Safety in Graph Machine Learning: Threats and Safeguards [[PDF]](https://arxiv.org/abs/2405.11034) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 Song Wang, Yushun Dong, Binchi Zhang, Zihan Chen, Xingbo Fu, **Yinhan He**, Cong Shen, Chuxu Zhang, Nitesh V. Chawla, Jundong Li
 
 ## Conference Publications
@@ -33,6 +30,15 @@ ACM International Conference on Web Search and Data Mining (**WSDM 2025**).
 2. Virtual Nodes Can Help: Tackling Distribution Shifts in Federated Graph Learning [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 Xingbo Fu, Zihan Chen, **Yinhan He**, Song Wang, Binchi Zhang, Chen Chen, Jundong Li<br>
 Annual AAAI Conference on Artificial Intelligence (**AAAI 2025**).
+
+3. Graph Neural Networks Are More Than Filters: Revisiting and Benchmarking from A Spectral Perspective [[PDF]](https://arxiv.org/abs/2412.07188) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
+Yushun Dong, Patrick Soga, **Yinhan He**, Song Wang, Jundong Li<br>
+International Conference on Learning Representations (**ICLR 2025**).
+
+4. Edge Prompt Tuning for Graph Neural Networks. [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
+Xingbo Fu, **Yinhan He**, Jundong Li<br>
+International Conference on Learning Representations (**ICLR 2025**).
+
 
 ### 2024
 
