@@ -29,6 +29,7 @@ I am a Ph.D. candidate in the [Department of Electrical and Computer Engineering
 News
 ------
 
+* Jan. 2025: Two papers acepted by ICLR.
 * Dec. 2024: One paper accepted by AAAI.
 * Oct. 2024: One paper accepted by WSDM.
 * Sept. 2024: One paper accepted by EMNLP.
