@@ -24,7 +24,7 @@ Song Wang, Yushun Dong, Binchi Zhang, Zihan Chen, Xingbo Fu, **Yinhan He**, Cong
 ### 2025
 
 1. Towards Global-level Mechanistic Interpretability: A Perspective of Modular Circuits of Large Language Models [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
-**Yinhan He**, Wendy Zheng, Yushun Dong, Yaochen Zhu, Chen Chen, Jundong Li (**ICML**)
+**Yinhan He**, Wendy Zheng, Yushun Dong, Yaochen Zhu, Chen Chen, Jundong Li (**ICML 2025**)
 
 2. Global Graph Counterfactual Explanation: A Subgraph Mapping Approach [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 **Yinhan He**, Wendy Zheng, Yaochen Zhu, Jing Ma, Saumitra Mishra, Natraj Raman, Ninghao Liu, Jundong Li (**TMLR**)
