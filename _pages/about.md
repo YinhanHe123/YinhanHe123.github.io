@@ -29,7 +29,7 @@ News
 ------
 * May. 2025: One paper accepted by ICML.
 * Mar. 2025: One paper accepted by TMLR.
-* Jan. 2025: Will join LinkedIn as a PhD Intern in May 2025
+* Jan. 2025: Will join LinkedIn as a PhD Intern in May, 2025.
 * Jan. 2025: Two papers acepted by ICLR.
 * Dec. 2024: One paper accepted by AAAI.
 * Oct. 2024: One paper accepted by WSDM.
