@@ -11,7 +11,6 @@ redirect_from:
 
 I am a Ph.D. candidate in the [Department of Electrical and Computer Engineering](https://engineering.virginia.edu/department/electrical-and-computer-engineering) at [the University of Virginia](https://www.virginia.edu/), where I am fortunately advised by [Prof. Jundong Li](https://jundongli.github.io). Prior to that, I obtained my B.S. in mathematics and applied mathematics from the [University of Chinese Academy of Sciences](https://www.ucas.ac.cn/).
 
-<span style="color:red">**\[Seeking for Internships\]:**</span> I am actively seeking for **research scientist internship** roles. I appreciate it so much if you [email me](mailto:nee7ne@virginia.edu) about exciting opportunities!
 
 <span style="color:red">**\[Open for Collaborations\]:**</span> I am happy to collaborate! Please feel free to [email me](mailto:nee7ne@virginia.edu).
 
@@ -30,6 +29,7 @@ News
 ------
 * May. 2025: One paper accepted by ICML.
 * Mar. 2025: One paper accepted by TMLR.
+* Jan. 2025: Will join LinkedIn as a PhD Intern in May 2025
 * Jan. 2025: Two papers acepted by ICLR.
 * Dec. 2024: One paper accepted by AAAI.
 * Oct. 2024: One paper accepted by WSDM.
