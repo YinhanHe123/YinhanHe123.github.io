@@ -27,6 +27,7 @@ I am a Ph.D. candidate in the [Department of Electrical and Computer Engineering
 
 News
 ------
+* May. 2025: One paper accepted by KDD.
 * May. 2025: One paper accepted by ICML.
 * Mar. 2025: One paper accepted by TMLR.
 * Jan. 2025: Will join LinkedIn as a PhD Intern in May, 2025.
