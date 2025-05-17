@@ -13,16 +13,12 @@ ACM SIGKDD Conference on Knowledge Discovery and Data Mining (**KDD 2024**).
 
 ## Preprint
 
-1. Global Graph Counterfactual Explanation: A Subgraph Mapping Approach [[PDF]](https://arxiv.org/abs/2410.19978) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
-**Yinhan He**, Wendy Zheng, Yaochen Zhu, Jing Ma, Saumitra Mishra, Natraj Raman, Ninghao Liu, Jundong Li
-
-2. Safety in Graph Machine Learning: Threats and Safeguards [[PDF]](https://arxiv.org/abs/2405.11034) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
+1. Safety in Graph Machine Learning: Threats and Safeguards [[PDF]](https://arxiv.org/abs/2405.11034) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 Song Wang, Yushun Dong, Binchi Zhang, Zihan Chen, Xingbo Fu, **Yinhan He**, Cong Shen, Chuxu Zhang, Nitesh V. Chawla, Jundong Li
 
 ## Conference Publications
 
 ### 2025
-
 
 
 1. Towards Global-level Mechanistic Interpretability: A Perspective of Modular Circuits of Large Language Models [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
