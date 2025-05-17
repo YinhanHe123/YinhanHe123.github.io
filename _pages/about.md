@@ -14,7 +14,7 @@ I am a Ph.D. candidate in the [Department of Electrical and Computer Engineering
 
 <span style="color:red">**\[Open for Collaborations\]:**</span> I am happy to collaborate! Please feel free to [email me](mailto:nee7ne@virginia.edu).
 
-**Research Summary:** My current research interest mainly lies in advancing interpretability of large language models. I have published four conference papers (two first author ones) and released four preprints in the following areas [[see full list]](https://scholar.google.com/citations?user=SMHk6PMAAAAJ&hl=en):
+**Research Summary:** My current research interest mainly lies in advancing interpretability of large language models. I have published conference and journal papers in top venues [[see full list]](https://scholar.google.com/citations?user=SMHk6PMAAAAJ&hl=en):
 
 * **Explainability:** Mechanistic Interpretability; Counterfactual Explanation;
 * **Graph Machine Learning:** Efficient GNN; Safety in Graph Learning; 
