@@ -16,10 +16,10 @@ I am a Ph.D. candidate in the [Department of Electrical and Computer Engineering
 
 **Research Summary:** My current research interest mainly lies in advancing interpretability of large language models. I have published conference and journal papers in top venues [[see full list]](https://scholar.google.com/citations?user=SMHk6PMAAAAJ&hl=en):
 
-* **Explainability:** Mechanistic Interpretability; Counterfactual Explanation;
+* **Explainability & Interpretability:** Mechanistic Interpretability; Counterfactual Explanation;
 * **Graph Machine Learning:** Efficient GNN; Safety in Graph Learning; 
-* **Network Science**: Network Epidemiology; 
-* **Causal Inference**: Causal Inference with Latent Variables;
+* **Large Language Models:** In-context Learning, Chain-of-thought, etc; 
+
 
 
 <!-- I have abundant interest in **Graph Mining**, e.g., **Spectral Graph Theory**, **Graph Neural Networks** and corresponding interdisciplinary topics. -->
@@ -27,6 +27,8 @@ I am a Ph.D. candidate in the [Department of Electrical and Computer Engineering
 
 News
 ------
+* August. 2025: Two papers accepted by EMNLP.
+* August. 2025: One paper accepted by GenAIRecP.
 * May. 2025: One paper accepted by KDD.
 * May. 2025: One paper accepted by ICML.
 * Mar. 2025: One paper accepted by TMLR.
