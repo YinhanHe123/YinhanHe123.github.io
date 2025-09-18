@@ -27,6 +27,8 @@ I am a Ph.D. candidate in the [Department of Electrical and Computer Engineering
 
 News
 ------
+* Sep. 2025: Received Light Graduate Fellowship. I sincerely appreciate Mr.William R. Light, Jr., my advisor Prof.Li and UVa ECE department. 
+* Sep. 2025: Three papers accepted by NeurIPS.
 * August. 2025: Two papers accepted by EMNLP.
 * August. 2025: One paper accepted by GenAIRecP.
 * May. 2025: One paper accepted by KDD.
