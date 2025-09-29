@@ -30,7 +30,7 @@ News
 * Sept. 2025: Grateful to receive Light Graduate Fellowship. I sincerely appreciate Mr.William R. Light, Jr., my advisor Prof.Li and UVa ECE department. 
 * Sept. 2025: Three papers accepted by NeurIPS.
 * Aug. 2025: Two papers accepted by EMNLP.
-* Aug. 2025: One paper accepted as by GenAIRecP workshop in SIGKDD 2025 (<font color="red">Best Paper Award Winner</font>).
+* Aug. 2025: One paper accepted by GenAIRecP workshop in SIGKDD (<font color="red">Best Paper Award Winner</font>).
 * May. 2025: One paper accepted by KDD.
 * May. 2025: One paper accepted by ICML.
 * Mar. 2025: One paper accepted by TMLR.
