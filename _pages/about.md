@@ -27,6 +27,7 @@ I am a Ph.D. candidate in the [Department of Electrical and Computer Engineering
 
 News
 ------
+* Oct. 2025: One paper accepted by WSDM.
 * Oct. 2025: Grateful to receive  NeurIPS 2025 Scholar Award. 
 * Sept. 2025: Grateful to receive Light Graduate Fellowship. I sincerely appreciate Mr.William R. Light, Jr., my advisor Prof.Li and UVa ECE department. 
 * Sept. 2025: Three papers accepted by NeurIPS.
