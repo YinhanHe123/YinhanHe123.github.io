@@ -16,9 +16,9 @@ I am a Ph.D. candidate in the [Department of Electrical and Computer Engineering
 
 **Research Summary:** My current research interest mainly lies in advancing interpretability of large language models. I have published conference and journal papers in top venues [[see full list]](https://scholar.google.com/citations?user=SMHk6PMAAAAJ&hl=en):
 
+* **Large Language Models:** Post-training, Chain-of-thought, In-context Learning, etc; 
 * **Explainability & Interpretability:** Mechanistic Interpretability; Counterfactual Explanation;
 * **Graph Machine Learning:** Efficient GNN; Safety in Graph Learning; 
-* **Large Language Models:** In-context Learning, Chain-of-thought, etc; 
 
 
 
