@@ -15,6 +15,9 @@ ACM SIGKDD Conference on Knowledge Discovery and Data Mining (**KDD 2024**).
 
 1. Safety in Graph Machine Learning: Threats and Safeguards [[PDF]](https://arxiv.org/abs/2405.11034) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 Song Wang, Yushun Dong, Binchi Zhang, Zihan Chen, Xingbo Fu, **Yinhan He**, Cong Shen, Chuxu Zhang, Nitesh V. Chawla, Jundong Li
+2. Rank-GRPO: Training LLM-based Conversational Recommender Systems with Reinforcement Learning [[PDF]](https://arxiv.org/html/2510.20150v1) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
+Yaochen Zhu, Harald Steck, Dawen Liang, **Yinhan He**, Jundong Li, Nathan Kallus
+
 
 ## Conference Publications
 
