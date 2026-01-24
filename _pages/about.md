@@ -28,6 +28,7 @@ I am a Ph.D. candidate in the [Department of Electrical and Computer Engineering
 News
 ------
 * Jan. 2026: One paper accepted by TKDE.
+* Dec. 2025: Will Join Snap as a PhD Intern in Feburary, 2026, where I will work with Dr. [Neil Shah](https://nshah.net).
 * Oct. 2025: Rleased LLM post-training work *Rank-GRPO* on [ArXiv](https://arxiv.org/html/2510.20150v1).
 * Oct. 2025: One paper accepted by WSDM.
 * Oct. 2025: Grateful to receive  NeurIPS 2025 Scholar Award. 
@@ -38,7 +39,7 @@ News
 * May. 2025: One paper accepted by KDD.
 * May. 2025: One paper accepted by ICML.
 * Mar. 2025: One paper accepted by TMLR.
-* Jan. 2025: Will join LinkedIn as a PhD Intern in May, 2025.
+* Jan. 2025: Will join LinkedIn as a PhD Intern in May, 2025, where I will work with Dr. [Lin Su](https://www.linkedin.com/in/lin-su-991bb463/).
 * Jan. 2025: Two papers acepted by ICLR.
 * Dec. 2024: One paper accepted by AAAI.
 * Oct. 2024: One paper accepted by WSDM.
@@ -60,11 +61,10 @@ News
 
 
 
-<!-- Industry Experiences
+Industry Experiences
 ------
-* June 2023 – Sept. 2023, Research Intern, Snap. Mentor: Dr. [Tong Zhao](https://tzhao.io), [Yozen Liu](https://scholar.google.com/citations?user=i3U2JjEAAAAJ&hl=en), and Dr. [Neil Shah](https://nshah.net).
-* June 2022 – Sept. 2022, Research Intern, Microsoft Research. Mentor: Dr. [Tobias Schnabel](https://www.microsoft.com/en-us/research/people/toschnab/). -->
-
+* Feb 2026 – May. 2026, Research Intern, Snap. Mentor: Dr. [Neil Shah](https://nshah.net).
+* May 2025 – Aug. 2025, PhD AI/ML Engineering Intern - NLP/LLM, LinkedIn. Mentor: Dr. [Lin Su](https://www.linkedin.com/in/lin-su-991bb463/) and Dr. [Xiaoqing Wang](https://www.linkedin.com/in/xiaoqing-wang-63812139/).
 
 
 
