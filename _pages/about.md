@@ -28,7 +28,7 @@ I am a Ph.D. candidate in the [Department of Electrical and Computer Engineering
 News
 ------
 * Jan. 2026: One paper accepted by TKDE.
-* Dec. 2025: Will join Snap as a PhD Research Intern in February 2026, working with Dr. Neil Shah. Dr. [Neil Shah](https://nshah.net).
+* Dec. 2025: Will join Snap as a PhD Research Intern in February 2026, working with Dr. [Neil Shah](https://nshah.net).
 * Oct. 2025: Rleased LLM post-training work *Rank-GRPO* on [ArXiv](https://arxiv.org/html/2510.20150v1).
 * Oct. 2025: One paper accepted by WSDM.
 * Oct. 2025: Grateful to receive  NeurIPS 2025 Scholar Award. 
