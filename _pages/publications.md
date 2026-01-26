@@ -16,14 +16,19 @@ ACM SIGKDD Conference on Knowledge Discovery and Data Mining (**KDD 2024**).
 1. Rank-GRPO: Training LLM-based Conversational Recommender Systems with Reinforcement Learning [[PDF]](https://arxiv.org/html/2510.20150v1) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 Yaochen Zhu, Harald Steck, Dawen Liang, **Yinhan He**, Jundong Li, Nathan Kallus
 
-
 ## Conference Publications
 ### 2026
 
-1. Safety in Graph Machine Learning: Threats and Safeguards [[PDF]](https://arxiv.org/abs/2405.11034) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
+1. ConvRec-R1: Training LLM-based Conversational Recommender Systems with Reinforcement Learning [[PDF]](https://arxiv.org/html/2510.20150v1) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
+Yaochen Zhu, Harald Steck, Dawen Liang, **Yinhan He**, Vito Claudio Ostuni, Jundong Li, Nathan Kallus (**ICLR 2026**)
+
+2. Reforming the Mechanism: Editing Reasoning Patterns in LLMs with Circuit Reshaping [[PDF]](https://arxiv.org/html/2510.20150v1) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
+Zhenyu Lei, Qiong Wu, JIANXIONG DONG, **Yinhan He**, Emily Dodwell, Yushun Dong, Jundong Li (**ICLR 2026**)
+
+3. Safety in Graph Machine Learning: Threats and Safeguards [[PDF]](https://arxiv.org/abs/2405.11034) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 Song Wang, Yushun Dong, Binchi Zhang, Zihan Chen, Xingbo Fu, **Yinhan He**, Cong Shen, Chuxu Zhang, Nitesh V. Chawla, Jundong Li (**TKDE 2026**)
 
-2. MolEdit: Knowledge Editing for Multimodal Molecule Language Models [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
+4. MolEdit: Knowledge Editing for Multimodal Molecule Language Models [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 Zhenyu Lei, Patrick Soga, Yaochen Zhu, **Yinhan He**, Yushun Dong and Jundong Li (**WSDM 2026**)
 
 
