@@ -27,6 +27,7 @@ I am a Ph.D. candidate in the [Department of Electrical and Computer Engineering
 
 News
 ------
+* Feb. 2026: Two papers accepted by ICLR.
 * Jan. 2026: One paper accepted by TKDE.
 * Dec. 2025: Will join Snap as a PhD Research Intern in February 2026, working with Dr. [Neil Shah](https://nshah.net).
 * Oct. 2025: Rleased LLM post-training work *Rank-GRPO* on [ArXiv](https://arxiv.org/html/2510.20150v1).
