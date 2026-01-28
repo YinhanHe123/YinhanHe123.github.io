@@ -29,7 +29,7 @@ News
 ------
 * Jan. 2026: Two papers accepted by ICLR.
 * Jan. 2026: One paper accepted by TKDE.
-* Dec. 2025: Will join Snap as a PhD Research Intern in February 2026, working with Dr. [Neil Shah](https://nshah.net).
+* Dec. 2025: Will join Snap as a PhD Research Intern in February 2026, working with Dr. [Neil Shah](https://www.linkedin.com/in/nshah171/).
 * Oct. 2025: Rleased LLM post-training work *Rank-GRPO* on [ArXiv](https://arxiv.org/html/2510.20150v1).
 * Oct. 2025: One paper accepted by WSDM.
 * Oct. 2025: Grateful to receive  NeurIPS 2025 Scholar Award. 
