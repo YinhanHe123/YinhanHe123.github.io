@@ -16,6 +16,9 @@ ACM SIGKDD Conference on Knowledge Discovery and Data Mining (**KDD 2024**).
 1. Rank-GRPO: Training LLM-based Conversational Recommender Systems with Reinforcement Learning [[PDF]](https://arxiv.org/html/2510.20150v1) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 Yaochen Zhu, Harald Steck, Dawen Liang, **Yinhan He**, Jundong Li, Nathan Kallus
 
+2. PhysicsAgentABM: Physics-Guided Generative Agent-Based Modeling [[PDF]](https://arxiv.org/pdf/2602.06030) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
+Kavana Venkatesh, **Yinhan He**, Jundong Li, Jiaming Cui
+
 ## Conference Publications
 ### 2026
 
