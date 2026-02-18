@@ -27,6 +27,7 @@ I am a Ph.D. candidate in the [Department of Electrical and Computer Engineering
 
 News
 ------
+* Feb. 2026: Released Agentic AI work *PhysicsAgentABM* on [ArXiv](https://arxiv.org/pdf/2602.06030).
 * Jan. 2026: Two papers accepted by ICLR.
 * Jan. 2026: One paper accepted by TKDE.
 * Dec. 2025: Will join Snap as a PhD Research Intern in February 2026, working with Dr. [Neil Shah](https://www.linkedin.com/in/nshah171/).
