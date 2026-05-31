@@ -28,7 +28,7 @@ Kavana Venkatesh, **Yinhan He**, Jundong Li, Jiaming Cui
 
 1. IAPO: Information-Aware Policy Optimization for Token-Efficient Reasoning [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 **Yinhan He**, Yaochen Zhu, Mingjia Shi, Wendy Zheng, Lin Su, Xiaoqing Wang, Qi Guo, Jundong Li (**ICML 2026**)
-  
+
 2. ConvRec-R1: Training LLM-based Conversational Recommender Systems with Reinforcement Learning [[PDF]](https://arxiv.org/html/2510.20150v1) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 Yaochen Zhu, Harald Steck, Dawen Liang, **Yinhan He**, Vito Claudio Ostuni, Jundong Li, Nathan Kallus (**ICLR 2026**)
 
