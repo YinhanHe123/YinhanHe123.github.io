@@ -27,6 +27,7 @@ I am a Ph.D. candidate in the [Department of Electrical and Computer Engineering
 
 News
 ------
+* June. 2026. Released Implicit Reasoning for Generative Recommendation work on [ArXiv](https://arxiv.org/pdf/2602.06030).
 * May. 2026. Grateful to receive ICML 2026 Gold Reviewer Award.
 * May. 2026. One tutorial paper accepted by SIGKDD.
 * Apr. 2026. One paper accepted by ICML. 
