@@ -27,7 +27,7 @@ I am a Ph.D. candidate in the [Department of Electrical and Computer Engineering
 
 News
 ------
-* June. 2026. Released Implicit Reasoning for Generative Recommendation work on [ArXiv](https://arxiv.org/pdf/2602.06030).
+* June. 2026. Released Implicit Reasoning for Generative Recommendation work on [ArXiv](https://arxiv.org/pdf/2606.14142).
 * May. 2026. Grateful to receive ICML 2026 Gold Reviewer Award.
 * May. 2026. One tutorial paper accepted by SIGKDD.
 * Apr. 2026. One paper accepted by ICML. 
@@ -35,7 +35,7 @@ News
 * Jan. 2026: One paper accepted by ACM SIGWEB Newsletter.
 * Jan. 2026: Two papers accepted by ICLR.
 * Jan. 2026: One paper accepted by TKDE.
-* Dec. 2025: Will join Snap as a PhD Research Intern in February 2026, working with Dr. [Neil Shah](https://www.linkedin.com/in/nshah171/).
+* Dec. 2025: Will join Snap as a PhD Research Intern in February 2026, working at User Modeling and Personalization ([UMAP](https://research.snap.com/team/user-modeling-and-personalization.html)) team.
 * Oct. 2025: Rleased LLM post-training work *Rank-GRPO* on [ArXiv](https://arxiv.org/html/2510.20150v1).
 * Oct. 2025: One paper accepted by WSDM.
 * Oct. 2025: Grateful to receive  NeurIPS 2025 Scholar Award. 
@@ -70,7 +70,7 @@ News
 
 Industry Experiences
 ------
-* Feb 2026 – May. 2026, Research Intern, Snap. Mentor: Dr. [Neil Shah](https://nshah.net).
+* Feb 2026 – May. 2026, Research Intern, Snap. Mentor: Dr. [Donald Loveland](https://www.donaldloveland.com/).
 * May 2025 – Aug. 2025, PhD AI/ML Engineering Intern - NLP/LLM, LinkedIn. Mentor: Dr. [Lin Su](https://www.linkedin.com/in/lin-su-991bb463/) and Dr. [Xiaoqing Wang](https://www.linkedin.com/in/xiaoqing-wang-63812139/).
 
 
