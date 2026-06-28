@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Discovery, Validation &amp; Editing of LLM Mechanisms — KDD 2026 Tutorial</title>
+<meta name="description" content="A lecture-style KDD 2026 tutorial on mechanistic interpretability of large language models: discovering, validating, and editing the internal mechanisms (circuits) of LLMs." />
+<meta name="keywords" content="Mechanistic Interpretability, Large Language Models, Circuits, KDD 2026, Tutorial" />
+<!-- Open Graph -->
+<meta property="og:title" content="Discovery, Validation & Editing of LLM Mechanisms — KDD 2026 Tutorial" />
+<meta property="og:description" content="A KDD 2026 lecture-style tutorial on mechanistic interpretability of LLMs." />
+<meta property="og:type" content="website" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ============ SITE MASTHEAD (mirrors yinhanhe123.github.io) ============ -->
+<header class="site-masthead" id="top">
+  <div class="site-masthead__inner">
+    <a class="site-name" href="/">Yinhan (Jonathan) He</a>
+    <nav class="site-nav" aria-label="Site navigation">
+      <a href="/publications/">Publications</a>
+      <a href="/teaching/">Teaching</a>
+      <a href="/cv/">CV</a>
+      <a href="/tutorials/" class="current">Tutorials</a>
+    </nav>
+  </div>
+</header>
+<div class="page-top" aria-hidden="true"></div>
+
+<!-- ============ SECTION SUB-NAV (in-page) ============ -->
+<div class="subnav">
+  <nav class="subnav-inner" aria-label="Section navigation">
+    <a href="#overview">Overview</a>
+    <a href="#outline">Outline</a>
+    <a href="#audience">Audience</a>
+    <a href="#presenters">Presenters</a>
+    <a href="#materials">Materials</a>
+    <a href="#cite">Cite</a>
+  </nav>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-bg" aria-hidden="true">
+    <svg viewBox="0 0 1200 420" preserveAspectRatio="xMidYMid slice">
+      <defs>
+        <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#2f7f93"/><stop offset="100%" stop-color="#7a8288"/>
+        </linearGradient>
+      </defs>
+      <g class="circuit" stroke="url(#edge)" fill="none" stroke-width="1.2">
+        <path d="M120,60 C300,60 300,200 480,200"/>
+        <path d="M120,180 C300,180 320,120 480,120"/>
+        <path d="M120,300 C320,300 320,200 480,200"/>
+        <path d="M480,120 C660,120 660,260 840,260"/>
+        <path d="M480,200 C680,200 680,90 840,90"/>
+        <path d="M840,90 C1000,90 1000,200 1140,200"/>
+        <path d="M840,260 C1010,260 1010,170 1140,170"/>
+      </g>
+      <g class="nodes" fill="#fff">
+        <circle cx="120" cy="60" r="5"/><circle cx="120" cy="180" r="5"/><circle cx="120" cy="300" r="5"/>
+        <circle cx="480" cy="120" r="7"/><circle cx="480" cy="200" r="7"/>
+        <circle cx="840" cy="90" r="7"/><circle cx="840" cy="260" r="7"/>
+        <circle cx="1140" cy="170" r="5"/><circle cx="1140" cy="200" r="5"/>
+      </g>
+    </svg>
+  </div>
+
+  <div class="hero-inner">
+    <div class="venue-badge">
+      <span class="dot"></span>
+      ACM SIGKDD 2026 · Lecture-Style Tutorial · Aug 9–13, 2026 · Jeju Island, Republic of Korea
+    </div>
+
+    <h1 class="hero-title">
+      Discovery, Validation and Editing of<br />
+      Large Language Model Mechanisms
+    </h1>
+    <p class="hero-subtitle">Recent Advances and Future Perspectives</p>
+
+    <ul class="authors">
+      <li><a href="mailto:nee7ne@virginia.edu">Yinhan He</a></li>
+      <li><a href="mailto:ncd9cf@virginia.edu">Wendy Zheng</a></li>
+      <li><a href="mailto:abs4dj@virginia.edu">Tianyi Zhao</a></li>
+      <li><a href="mailto:zrh6du@virginia.edu">Chen Chen</a></li>
+      <li><a href="mailto:jl6qk@virginia.edu">Jundong Li<sup>*</sup></a></li>
+    </ul>
+    <p class="affil">University of Virginia, Charlottesville, VA, USA &nbsp;·&nbsp; <sup>*</sup>Corresponding tutor</p>
+
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="assets/kdd2026-llm-mi-tutorial-proposal.pdf">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
+        Tutorial Proposal (PDF)
+      </a>
+      <a class="btn btn-ghost" href="#outline">Jump to Outline</a>
+      <a class="btn btn-ghost is-disabled" href="#materials" aria-disabled="true">Slides — coming soon</a>
+    </div>
+  </div>
+</section>
+
+<main>
+
+<!-- ============ OVERVIEW / ABSTRACT ============ -->
+<section id="overview" class="section">
+  <div class="container">
+    <p class="eyebrow">Overview</p>
+    <h2>Abstract</h2>
+    <div class="prose lead">
+      <p>
+        Large language models (LLMs) have demonstrated remarkable capabilities across a wide range
+        of tasks, yet their internal mechanisms remain largely opaque, making it difficult to
+        understand, predict, or control their behavior. As LLMs are increasingly deployed in
+        high-stakes settings, this lack of transparency raises serious concerns about reliability
+        and safety. <strong>Mechanistic interpretability (MI)</strong> has emerged as a promising
+        approach to address this challenge, seeking to reverse-engineer the internal computations of
+        LLMs into human-understandable mechanisms — i.e., an approximate high-level algorithm that
+        the LLM implements with a subset of its components (a <em>circuit</em>) to complete a certain
+        language task or exhibit a certain behavior.
+      </p>
+      <p>
+        This tutorial provides a comprehensive and up-to-date overview of LLM mechanism
+        <strong>discovery</strong>, <strong>validation</strong>, and <strong>editing</strong>. We
+        begin by introducing foundational concepts — features, components, computational graphs, and
+        circuits — along with key notation. We then examine mechanism discovery through four
+        methodological families: <em>causal mediation</em>, <em>attribution</em>, <em>sparse
+        decomposition</em>, and <em>optimization-based</em> approaches. Next, we turn to mechanism
+        validation, covering methods for verifying proposed mechanisms and emerging standards for
+        rigorous evaluation. Building on these foundations, we survey mechanistic editing techniques
+        that leverage MI insights to modify behavior at varying granularity, from fine-grained
+        representation-level steering to coarser circuit-level interventions. Lastly, we outline open
+        challenges and future research directions, including scalability of interpretability methods,
+        evaluation benchmarks for mechanistic circuits, and the integration of interpretability with
+        training-time objectives.
+      </p>
+    </div>
+
+    <div class="pill-row">
+      <span class="pill">Mechanistic Interpretability</span>
+      <span class="pill">Large Language Models</span>
+      <span class="pill">Circuits &amp; Computational Graphs</span>
+      <span class="pill">Causal Mediation</span>
+      <span class="pill">Model Editing</span>
+      <span class="pill">Trustworthy AI</span>
+    </div>
+
+    <div class="threepart">
+      <div class="tp-card">
+        <span class="tp-num">01</span>
+        <h3>Discovery</h3>
+        <p>Surface the circuits and features that implement a behavior — via causal mediation,
+        attribution, sparse decomposition, and optimization.</p>
+      </div>
+      <div class="tp-card">
+        <span class="tp-num">02</span>
+        <h3>Validation</h3>
+        <p>Rigorously verify that a proposed mechanism is faithful, minimal, and complete — with
+        axiomatic and benchmark-based standards.</p>
+      </div>
+      <div class="tp-card">
+        <span class="tp-num">03</span>
+        <h3>Editing</h3>
+        <p>Use mechanistic insight to correct knowledge, debug reasoning, unlearn, and mitigate
+        bias at the right level of granularity.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OUTLINE ============ -->
+<section id="outline" class="section section-alt">
+  <div class="container">
+    <p class="eyebrow">Schedule</p>
+    <h2>Tutorial Outline</h2>
+    <p class="prose lead">
+      A <strong>lecture-style</strong> tutorial of approximately <strong>160 minutes</strong> across
+      six parts, with a <strong>10-minute break after Sections II and IV</strong>. Time allocations
+      below are indicative.
+    </p>
+
+    <ol class="timeline">
+      <li class="tl-item">
+        <div class="tl-time"><span class="tl-tag">I</span><span class="tl-dur">25 min</span></div>
+        <div class="tl-body">
+          <h3>Introduction: Mechanistic Interpretability in LLMs</h3>
+          <ul>
+            <li><strong>Motivation &amp; significance.</strong> Why internal reasoning discovery is critical for applying LLMs to high-stakes scenarios.</li>
+            <li><strong>Challenges.</strong> Why traditional model-explainability methods fall short of the demand for LLM-internal logic rather than input–output explanations.</li>
+            <li>An overview of natural-language tasks studied in LLM mechanistic interpretability.</li>
+            <li>An overview of applications that benefit from mechanistic interpretation, verification, and editing.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="tl-item">
+        <div class="tl-time"><span class="tl-tag">II</span><span class="tl-dur">25 min</span></div>
+        <div class="tl-body">
+          <h3>Notions and Background</h3>
+          <ul>
+            <li>The necessity of moving beyond input–output attribution toward internal component-level understanding.</li>
+            <li><strong>Fundamental notions.</strong> Computational graphs (nodes: attention heads, MLP layers, residual streams; edges: information flow); circuits as functional compositions of components; key research objects — polysemanticity, superposition, and distributed functionalities.</li>
+            <li><strong>Causal foundations.</strong> Interventions, causal effects, and causal mediation analysis.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="tl-item tl-break">
+        <div class="tl-time"><span class="tl-tag">☕</span></div>
+        <div class="tl-body"><h3>Break (10 min)</h3></div>
+      </li>
+
+      <li class="tl-item">
+        <div class="tl-time"><span class="tl-tag">III</span><span class="tl-dur">30 min</span></div>
+        <div class="tl-body">
+          <h3>Mechanism Discovery</h3>
+          <ul>
+            <li><strong>Causal mediation.</strong> Measuring component importance via targeted interventions.</li>
+            <li><strong>Attribution methods.</strong> Estimating component importance using approximations.</li>
+            <li><strong>Sparse decomposition.</strong> Disentangling activations into interpretable features.</li>
+            <li><strong>Optimization-based.</strong> Finding mechanisms through optimization.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="tl-item">
+        <div class="tl-time"><span class="tl-tag">IV</span><span class="tl-dur">30 min</span></div>
+        <div class="tl-body">
+          <h3>Mechanism Validation</h3>
+          <ul>
+            <li><strong>Formalizing MI.</strong> Axiomatic approaches and circuit discovery with self-validated guarantees.</li>
+            <li><strong>Validation metrics.</strong> Faithfulness, minimality, and completeness of mechanistic interpretations.</li>
+            <li><strong>Validation tools.</strong> Causal-inference-based techniques and MI benchmarks.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="tl-item tl-break">
+        <div class="tl-time"><span class="tl-tag">☕</span></div>
+        <div class="tl-body"><h3>Break (10 min)</h3></div>
+      </li>
+
+      <li class="tl-item">
+        <div class="tl-time"><span class="tl-tag">V</span><span class="tl-dur">30 min</span></div>
+        <div class="tl-body">
+          <h3>Mechanism Editing</h3>
+          <ul>
+            <li><strong>Knowledge &amp; reasoning editing.</strong> Principled factual correction and reasoning debugging.</li>
+            <li><strong>Model unlearning.</strong> Mechanistic unlearning for privacy and representation-level steering.</li>
+            <li><strong>Safety &amp; alignment.</strong> Bias mitigation.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="tl-item">
+        <div class="tl-time"><span class="tl-tag">VI</span><span class="tl-dur">20 min</span></div>
+        <div class="tl-body">
+          <h3>Challenges and Future Directions</h3>
+          <ul>
+            <li>Summary of presented discovery frameworks, validation methodologies, and editing techniques.</li>
+            <li>Current challenges in MI, including limitations and gaps in existing approaches.</li>
+            <li>Future directions for advancing MI and improving its practical usefulness and scalability.</li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ AUDIENCE ============ -->
+<section id="audience" class="section">
+  <div class="container">
+    <p class="eyebrow">Who should attend</p>
+    <h2>Target Audience &amp; Prerequisites</h2>
+    <div class="audience-grid">
+      <div class="prose">
+        <p>
+          The target audience includes <strong>researchers, industry practitioners, and students</strong>
+          interested in data mining, machine learning, natural language processing, and trustworthy AI.
+          Participants with prior experience in large language models will gain the most from the
+          technical discussions, but the tutorial is structured at an advanced undergraduate / graduate
+          level so that it remains accessible to a broad KDD community. Both academic and industry
+          attendees will be able to follow the key concepts and practical methodologies.
+        </p>
+        <p>
+          All tutorial slides and supporting resources will be made publicly available after the
+          conference.
+        </p>
+      </div>
+      <aside class="facts">
+        <div class="fact"><span class="fact-k">Level</span><span class="fact-v">Advanced UG / Graduate · broadly accessible</span></div>
+        <div class="fact"><span class="fact-k">Helpful background</span><span class="fact-v">Familiarity with LLMs &amp; deep learning</span></div>
+        <div class="fact"><span class="fact-k">Expected attendance</span><span class="fact-v">50–100 participants</span></div>
+        <div class="fact"><span class="fact-k">Format</span><span class="fact-v">Lecture-style, ~160 min + 2 breaks</span></div>
+        <div class="fact"><span class="fact-k">Interactivity</span><span class="fact-v">Open Q&amp;A throughout · follow-ups welcome after</span></div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRESENTERS ============ -->
+<section id="presenters" class="section section-alt">
+  <div class="container">
+    <p class="eyebrow">Tutors</p>
+    <h2>Presenters</h2>
+    <p class="prose lead">All five tutors will attend KDD 2026 and present in person.</p>
+
+    <div class="people">
+      <article class="person">
+        <img class="avatar" src="assets/yinhan.jpg" alt="Yinhan He" loading="lazy" />
+        <div class="person-body">
+          <h3>Yinhan He</h3>
+          <p class="person-role">4th-year Ph.D. candidate, ECE · University of Virginia</p>
+          <p>Research spanning large language models, agentic AI, interpretable and explainable AI, and
+          graph machine learning, with a particular emphasis on mechanistic interpretability of foundation
+          models. He has studied LLM mechanism discovery, validation, and editing for more than two years;
+          his work on global-level mechanistic interpretability was accepted to ICML 2025, and a
+          collaboration on reasoning editing was accepted to ICLR 2026.</p>
+        </div>
+      </article>
+
+      <article class="person">
+        <img class="avatar" src="assets/wendy.png" alt="Wendy Zheng" loading="lazy" />
+        <div class="person-body">
+          <h3>Wendy Zheng</h3>
+          <p class="person-role">1st-year Ph.D. student, CS · University of Virginia</p>
+          <p>Research focused on mechanistic interpretability of large language models, aiming to uncover
+          and rigorously evaluate the internal mechanisms behind model capabilities, with a broad interest
+          in scalable interpretability methods that remain effective as models grow. Co-authored works at
+          top venues, including one at NeurIPS on implicit reasoning in LLMs and one at ICML investigating
+          the existence of modular circuits.</p>
+        </div>
+      </article>
+
+      <article class="person">
+        <img class="avatar" src="assets/tianyi.png" alt="Tianyi Zhao" loading="lazy" />
+        <div class="person-body">
+          <h3>Tianyi Zhao</h3>
+          <p class="person-role">1st-year Ph.D. student, CS · University of Virginia</p>
+          <p>Broadly interested in the rigorous development of trustworthy AI, with a current focus on
+          leveraging mechanistic interpretability to demystify, evaluate, and refine the internal mechanisms
+          of LLMs. Through this lens she studies fundamental challenges such as hallucination and
+          miscalibration while advancing model-editing techniques. Multiple works in mechanistic
+          interpretability are in submission.</p>
+        </div>
+      </article>
+
+      <article class="person">
+        <img class="avatar" src="assets/chenchen.png" alt="Chen Chen" loading="lazy" />
+        <div class="person-body">
+          <h3>Chen Chen</h3>
+          <p class="person-role">Assistant Professor, CS · University of Virginia</p>
+          <p>Previously a research assistant professor at the Biocomplexity Institute (UVA) and a software
+          engineer at Google; Ph.D. from Arizona State University (2019). Her research on the connectivity
+          of complex networks has been applied to healthcare, bioinformatics, recommendation, and critical
+          infrastructure. Work appears in top venues (NeurIPS, ICML, ICLR, KDD, AAAI, IJCAI, SIGIR, WSDM,
+          ICDM, SDM) and journals (PNAS, IEEE TKDE, ACM CSUR, ACM TKDD, KAIS, SIAM SAM), with honors
+          including "Bests of KDD," "Bests of SDM," and Rising Star in EECS.</p>
+        </div>
+      </article>
+
+      <article class="person person-wide">
+        <img class="avatar avatar-lead" src="assets/jundong.png" alt="Jundong Li" loading="lazy" />
+        <div class="person-body">
+          <h3>Jundong Li <span class="corr-tag">Corresponding tutor</span></h3>
+          <p class="person-role">Associate Professor, ECE &amp; CS · University of Virginia</p>
+          <p>Research spanning data mining, machine learning, and artificial intelligence, with a particular
+          emphasis on graph machine learning, trustworthy and safe machine learning, and large language
+          models. He has published more than 200 papers in high-impact venues, with over 20,000 citations.
+          Honors include four early-career awards — the ICDM Tao Li Award (2025), the SIGKDD Rising Star
+          Award (2024), the PAKDD Early Career Research Award (2023), and the NSF CAREER Award (2022) — as
+          well as the PAKDD Best Paper Award (2024) and the SIGKDD Best Research Paper Award (2022), and
+          multiple industry faculty research awards.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MATERIALS ============ -->
+<section id="materials" class="section">
+  <div class="container">
+    <p class="eyebrow">Resources</p>
+    <h2>Materials</h2>
+    <div class="materials-grid">
+      <a class="mat-card mat-active" href="assets/kdd2026-llm-mi-tutorial-proposal.pdf">
+        <span class="mat-icon">📄</span>
+        <span class="mat-title">Tutorial Proposal</span>
+        <span class="mat-meta">PDF · accepted KDD 2026</span>
+      </a>
+      <div class="mat-card mat-soon">
+        <span class="mat-icon">🖥️</span>
+        <span class="mat-title">Slides</span>
+        <span class="mat-meta">Available after the conference</span>
+      </div>
+      <div class="mat-card mat-soon">
+        <span class="mat-icon">📚</span>
+        <span class="mat-title">Reading List</span>
+        <span class="mat-meta">See References below</span>
+      </div>
+      <div class="mat-card mat-soon">
+        <span class="mat-icon">🎥</span>
+        <span class="mat-title">Recording</span>
+        <span class="mat-meta">If made available by KDD</span>
+      </div>
+    </div>
+    <p class="note">All slides and supporting resources will be released publicly after KDD 2026. Check back here for links.</p>
+  </div>
+</section>
+
+<!-- ============ CITE ============ -->
+<section id="cite" class="section section-alt">
+  <div class="container">
+    <p class="eyebrow">How to cite</p>
+    <h2>Citation</h2>
+    <p class="prose lead">If you reference this tutorial, please cite the ACM proceedings entry.</p>
+    <div class="cite-box">
+      <button class="copy-btn" data-copy-target="#bibtex">Copy</button>
+      <pre id="bibtex"><code>@inproceedings{he2026discovery,
+  title     = {Discovery, Validation and Editing of Large Language Model
+               Mechanisms: Recent Advances and Future Perspectives},
+  author    = {He, Yinhan and Zheng, Wendy and Zhao, Tianyi and
+               Chen, Chen and Li, Jundong},
+  booktitle = {Proceedings of the 32nd ACM SIGKDD Conference on Knowledge
+               Discovery and Data Mining V.2 (KDD 2026)},
+  year      = {2026},
+  address   = {Jeju Island, Republic of Korea},
+  publisher = {ACM},
+  doi       = {10.1145/3770855.3816458}
+}</code></pre>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div>
+      <p class="footer-title">Discovery, Validation &amp; Editing of LLM Mechanisms</p>
+      <p class="footer-sub">A lecture-style tutorial · The 32nd ACM SIGKDD Conference (KDD 2026) · Jeju Island, Republic of Korea · Aug 9–13, 2026</p>
+    </div>
+    <p class="footer-meta">
+      Presented by the University of Virginia.<br />
+      Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · DOI 10.1145/3770855.3816458
+    </p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
