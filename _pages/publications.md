@@ -30,7 +30,7 @@ Kavana Venkatesh, **Yinhan He**, Jundong Li, Jiaming Cui
 ### 2026
 
 1. Wired for Overconfidence: A Mechanistic Perspective on Inflated Verbalized Confidence in LLMs [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]]
-Tianyi Zhao, **Yinhan He**, Wendy Zheng, Yujie Zhang, Chen Chen
+Tianyi Zhao, **Yinhan He**, Wendy Zheng, Yujie Zhang, Chen Chen (**COLM 2026**)
 
 3. IAPO: Information-Aware Policy Optimization for Token-Efficient Reasoning [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 **Yinhan He**, Yaochen Zhu, Mingjia Shi, Wendy Zheng, Lin Su, Xiaoqing Wang, Qi Guo, Jundong Li (**ICML 2026**)
