@@ -23,6 +23,9 @@ Yaochen Zhu, Harald Steck, Dawen Liang, **Yinhan He**, Jundong Li, Nathan Kallus
 2. PhysicsAgentABM: Physics-Guided Generative Agent-Based Modeling [[PDF]](https://arxiv.org/pdf/2602.06030) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 Kavana Venkatesh, **Yinhan He**, Jundong Li, Jiaming Cui
 
+3. Implicit Reasoning for Large Language Model-based Generative Recommendation [[PDF]](https://arxiv.org/abs/2606.14142) [[Code]]
+Yinhan He, Liam Collins, Bhuvesh Kumar, Jundong Li, Neil Shah, Donald Loveland
+
 ## Conference Publications
 ### 2026
 
