@@ -24,7 +24,7 @@ Yaochen Zhu, Harald Steck, Dawen Liang, **Yinhan He**, Jundong Li, Nathan Kallus
 Kavana Venkatesh, **Yinhan He**, Jundong Li, Jiaming Cui
 
 3. Implicit Reasoning for Large Language Model-based Generative Recommendation [[PDF]](https://arxiv.org/abs/2606.14142) [[Code]]
-Yinhan He, Liam Collins, Bhuvesh Kumar, Jundong Li, Neil Shah, Donald Loveland
+**Yinhan He**, Liam Collins, Bhuvesh Kumar, Jundong Li, Neil Shah, Donald Loveland
 
 ## Conference Publications
 ### 2026
