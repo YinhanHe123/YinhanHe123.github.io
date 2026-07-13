@@ -27,6 +27,7 @@ I am a Ph.D. candidate in the [Department of Electrical and Computer Engineering
 
 News
 ------
+* July. 2026. Grateful to receive SIGKDD 2026 Travel Award.
 * July. 2026. One paper accepted by COLM.
 * June. 2026. Released Implicit Reasoning for Generative Recommendation work on [ArXiv](https://arxiv.org/pdf/2606.14142).
 * May. 2026. Grateful to receive ICML 2026 Gold Reviewer Award.
