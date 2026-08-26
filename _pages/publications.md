@@ -29,10 +29,10 @@ Kavana Venkatesh, **Yinhan He**, Jundong Li, Jiaming Cui
 ## Conference Publications
 ### 2026
 
-1. Addressing the Reasoning Gap: Mechanistic Circuit-Based Knowledge Editing in Large Language Models [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]]
+1. Addressing the Reasoning Gap: Mechanistic Circuit-Based Knowledge Editing in Large Language Models [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 Tianyi Zhao, **Yinhan He**, Wendy Zheng, Chen Chen (**EMNLP 2026**)
 
-3. Wired for Overconfidence: A Mechanistic Perspective on Inflated Verbalized Confidence in LLMs [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]]
+3. Wired for Overconfidence: A Mechanistic Perspective on Inflated Verbalized Confidence in LLMs [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 Tianyi Zhao, **Yinhan He**, Wendy Zheng, Yujie Zhang, Chen Chen (**COLM 2026**)
 
 4. IAPO: Information-Aware Policy Optimization for Token-Efficient Reasoning [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
