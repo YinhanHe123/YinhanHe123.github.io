@@ -30,7 +30,7 @@ Kavana Venkatesh, **Yinhan He**, Jundong Li, Jiaming Cui
 ### 2026
 
 1. Addressing the Reasoning Gap: Mechanistic Circuit-Based Knowledge Editing in Large Language Models [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]]
-Tianyi Zhao, **Yinhan He**, Wendy Zheng, Chen Chen 
+Tianyi Zhao, **Yinhan He**, Wendy Zheng, Chen Chen (**EMNLP 2026**)
 
 3. Wired for Overconfidence: A Mechanistic Perspective on Inflated Verbalized Confidence in LLMs [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]]
 Tianyi Zhao, **Yinhan He**, Wendy Zheng, Yujie Zhang, Chen Chen (**COLM 2026**)
