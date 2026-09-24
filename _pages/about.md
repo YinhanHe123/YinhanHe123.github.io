@@ -27,6 +27,7 @@ I am a Ph.D. candidate in the [Department of Electrical and Computer Engineering
 
 News
 ------
+* Sept. 2026. Two papers accepted by NeurIPS.
 * Aug. 2026. One paper accepted by EMNLP.
 * July. 2026. Grateful to receive SIGKDD 2026 Travel Award.
 * July. 2026. One paper accepted by COLM.
