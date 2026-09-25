@@ -29,25 +29,31 @@ Kavana Venkatesh, **Yinhan He**, Jundong Li, Jiaming Cui
 ## Conference Publications
 ### 2026
 
-1. Addressing the Reasoning Gap: Mechanistic Circuit-Based Knowledge Editing in Large Language Models [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
+1. Mult-DPO: Multinomial Direct Preference Optimization for Recommender Systems [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
+Yaochen Zhu, Harald Steck, James McInerney, Aditya Sinha, **Yinhan He**, Nathan Kallus, Jundong Li (**NeurIPS 2026**)
+
+2. Saliency-Aware Multi-Route Thinking: Grounding and Reasoning on Vision-Language Agents [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
+Mingjia Shi, **Yinhan He**, Yaochen Zhu, Cassie Dong, Jundong Li
+
+3. Addressing the Reasoning Gap: Mechanistic Circuit-Based Knowledge Editing in Large Language Models [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 Tianyi Zhao, **Yinhan He**, Wendy Zheng, Chen Chen (**EMNLP 2026**)
 
-3. Wired for Overconfidence: A Mechanistic Perspective on Inflated Verbalized Confidence in LLMs [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
+4. Wired for Overconfidence: A Mechanistic Perspective on Inflated Verbalized Confidence in LLMs [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 Tianyi Zhao, **Yinhan He**, Wendy Zheng, Yujie Zhang, Chen Chen (**COLM 2026**)
 
-4. IAPO: Information-Aware Policy Optimization for Token-Efficient Reasoning [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
+5. IAPO: Information-Aware Policy Optimization for Token-Efficient Reasoning [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 **Yinhan He**, Yaochen Zhu, Mingjia Shi, Wendy Zheng, Lin Su, Xiaoqing Wang, Qi Guo, Jundong Li (**ICML 2026**)
 
-5. ConvRec-R1: Training LLM-based Conversational Recommender Systems with Reinforcement Learning [[PDF]](https://arxiv.org/html/2510.20150v1) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
+6. ConvRec-R1: Training LLM-based Conversational Recommender Systems with Reinforcement Learning [[PDF]](https://arxiv.org/html/2510.20150v1) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 Yaochen Zhu, Harald Steck, Dawen Liang, **Yinhan He**, Vito Claudio Ostuni, Jundong Li, Nathan Kallus (**ICLR 2026**)
 
-6. Reforming the Mechanism: Editing Reasoning Patterns in LLMs with Circuit Reshaping [[PDF]](https://arxiv.org/html/2510.20150v1) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
+7. Reforming the Mechanism: Editing Reasoning Patterns in LLMs with Circuit Reshaping [[PDF]](https://arxiv.org/html/2510.20150v1) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 Zhenyu Lei, Qiong Wu, JIANXIONG DONG, **Yinhan He**, Emily Dodwell, Yushun Dong, Jundong Li (**ICLR 2026**)
 
-7. Safety in Graph Machine Learning: Threats and Safeguards [[PDF]](https://arxiv.org/abs/2405.11034) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
+8. Safety in Graph Machine Learning: Threats and Safeguards [[PDF]](https://arxiv.org/abs/2405.11034) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 Song Wang, Yushun Dong, Binchi Zhang, Zihan Chen, Xingbo Fu, **Yinhan He**, Cong Shen, Chuxu Zhang, Nitesh V. Chawla, Jundong Li (**TKDE 2026**)
 
-8. MolEdit: Knowledge Editing for Multimodal Molecule Language Models [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
+9. MolEdit: Knowledge Editing for Multimodal Molecule Language Models [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 Zhenyu Lei, Patrick Soga, Yaochen Zhu, **Yinhan He**, Yushun Dong and Jundong Li (**WSDM 2026**)
 
 
