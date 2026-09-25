@@ -33,7 +33,7 @@ Kavana Venkatesh, **Yinhan He**, Jundong Li, Jiaming Cui
 Yaochen Zhu, Harald Steck, James McInerney, Aditya Sinha, **Yinhan He**, Nathan Kallus, Jundong Li (**NeurIPS 2026**)
 
 2. Saliency-Aware Multi-Route Thinking: Grounding and Reasoning on Vision-Language Agents [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
-Mingjia Shi, **Yinhan He**, Yaochen Zhu, Cassie Dong, Jundong Li
+Mingjia Shi, **Yinhan He**, Yaochen Zhu, Cassie Dong, Jundong Li (**NeurIPS 2026**)
 
 3. Addressing the Reasoning Gap: Mechanistic Circuit-Based Knowledge Editing in Large Language Models [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 Tianyi Zhao, **Yinhan He**, Wendy Zheng, Chen Chen (**EMNLP 2026**)
