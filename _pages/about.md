@@ -75,7 +75,8 @@ News
 
 Industry Experiences
 ------
-* Feb 2026 – May. 2026, Research Intern, Snap. Mentor: Dr. [Donald Loveland](https://www.donaldloveland.com/).
+* June 2026 - Aug. 2026, Research Scientist Intern, Meta. Mentor: Dr. Cassie Dong
+* Feb 2026 – May. 2026, Research Intern, Snap. Mentor: Dr. [Donald Loveland](https://www.donaldloveland.com/), Dr. [Liam Collins](https://liamgcollins.github.io/) and Dr. [Neil Shah](https://nshah.net/).
 * May 2025 – Aug. 2025, PhD AI/ML Engineering Intern - NLP/LLM, LinkedIn. Mentor: Dr. [Lin Su](https://www.linkedin.com/in/lin-su-991bb463/) and Dr. [Xiaoqing Wang](https://www.linkedin.com/in/xiaoqing-wang-63812139/).
 
 
