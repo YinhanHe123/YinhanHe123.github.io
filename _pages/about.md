@@ -12,13 +12,13 @@ redirect_from:
 I am a Ph.D. candidate in the [Department of Electrical and Computer Engineering](https://engineering.virginia.edu/department/electrical-and-computer-engineering) at [the University of Virginia](https://www.virginia.edu/), where I am fortunately advised by [Prof. Jundong Li](https://jundongli.github.io). Prior to that, I obtained my B.S. in mathematics and applied mathematics from the [University of Chinese Academy of Sciences](https://www.ucas.ac.cn/).
 
 
-<span style="color:red">**\[Open for Collaborations\]:**</span> I am happy to collaborate! Please feel free to [email me](mailto:nee7ne@virginia.edu).
+<span style="color:red">**\[Open for Jobs\]:**</span> I'm currently looking for full time research/engineering roles starting summer 2027, please feel free to reach out! [email me](mailto:nee7ne@virginia.edu).
 
 **Research Summary:** My current research interest mainly lies in advancing interpretability of large language models. I have published conference and journal papers in top venues [[see full list]](https://scholar.google.com/citations?user=SMHk6PMAAAAJ&hl=en):
 
-* **Large Language Models:** Post-training, Chain-of-thought, In-context Learning, etc; 
+* **Large Language Models:** Post-training, Chain-of-thought, In-context Learning, etc;
+* **Agentic System:** Agentic long-horizon memory mechanism, etc;
 * **Explainability & Interpretability:** Mechanistic Interpretability; Counterfactual Explanation;
-* **Graph Machine Learning:** Efficient GNN; Safety in Graph Learning; 
 
 
 
