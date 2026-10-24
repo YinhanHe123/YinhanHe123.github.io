@@ -29,6 +29,12 @@ Kavana Venkatesh, **Yinhan He**, Jundong Li, Jiaming Cui
 ## Conference Publications
 ### 2026
 
+1. Learning to Bound Spill-over Effect under Structural Uncertainty [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
+Yaochen Zhu, Yinhan He, Xingbo Fu, Liang Wu, Qi Guo, Liangjie Hong, Jundong Li (**IEEE Big Data 2026**)
+   
+2. Towards Global Counterfactual-Based Self-Explainable Graph Neural Networks [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
+ Wendy Zheng, Yinhan He, Jundong Li (**IEEE Big Data 2026 Short Paper**)
+
 1. Mult-DPO: Multinomial Direct Preference Optimization for Recommender Systems [[PDF]](https://yinhanhe123.github.io//publications/) [[Code]](https://yinhanhe123.github.io//publications/) [[Slides]](https://yinhanhe123.github.io//publications/)<br>
 Yaochen Zhu, Harald Steck, James McInerney, Aditya Sinha, **Yinhan He**, Nathan Kallus, Jundong Li (**NeurIPS 2026**)
 
